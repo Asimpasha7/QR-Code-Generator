@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>QR Code Gnerator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<script type="text/javascript" src="script.js"></script>
+	<div class="grid">
+		<h2 align="cenetr">QR Code Generator</h2>
+	
+		<center><img src="" id="img" alt="QR Code"></center>		
+		<select id="size">
+			<option value="100">100*100</option>
+			<option value="150">150*150</option>
+			<option value="200">200*200</option>
+			<option value="250">250*250</option>
+			<option value="300">300*300</option>
+		</select>
+		<br/>
+		<textarea id="grtext" placeholder="Enetr Text Here!"></textarea>
+		<!-- <input type="submit" value="Generate" onclick="generateQr()"> -->
+		<input type="submit" value="Generate" onclick="generateQr()">
+
+		<p><b>Developed By Asim</b></p>
+	</div>
+
+</body>
+</html>
